@@ -123,6 +123,289 @@
   <metadata name="DelayReload.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>121, 17</value>
   </metadata>
+  <metadata name="NotifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>241, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NotifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/30AiP/4AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/+ACH/30AiP/4AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP/4AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//EpD//6PT///A4f//j8r//wiL//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//1Gt///Q6P//Zbf//97v//99wv//AIj//wCI//8AiP//AIj//wWK
+        //9es///C43//wCI//8Xk///NqH//wCI//8AiP//M5///5XN///I5f//6vX//12z//8AiP//AIj//wCI
+        //8blP///////0ur//8AiP//nND//8Li//8AiP//GZP//9Tq///7/f//7Pb////////H5P//eL///wCI
+        //8AiP//Bov///n8//9tu///AIj//5XN///X7P//AIj//3i////+/v//LZz//wOJ///j8v//Zrf//4bG
+        //8AiP//AIj//1Wv///q9f//ud7//0yr//+i0///+Pv//wOJ//99wv//8/n//wCI//8AiP//jcn//zOf
+        //8AiP//AIj//wCI//8SkP//qNb///7+//+m1f//rtn///////8nmv//Tqz///7+//8clf//IZf//xOQ
+        //8AiP//AIj//wCI//8AiP//F5L//zKf////////NqH//wSJ///u9///U67//waL///r9f//3u///5bO
+        ///C4v//eMD//wCI//8AiP//AIj//7je//+o1v//9/v//33C//8AiP//m9D//37D//8tnP//sNn///H4
+        //9Ur///TKv//+Hx//8AiP//AIj//wCI//8Dif//Qab//2y6//9Kqv//AIj//xqU//9htf//AIj//wCI
+        //88pP//tNz//8vm//9suv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/+ACI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/+ACH/30AiP/4AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/+ACH/30AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wEAh/97AIj/5gCI//4AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP/+AIj/5gCH/3sA//8BAIf/ewCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCH/3sAh//mAIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIf/5gCI//4AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP/+AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//ySY//+Aw///pdX//53R//9gtf//B4v//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//9Jqf//+Pv///P5///L5v//8/n////////Y7P//IZf//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//7zg////////Rqj//wCI//8alP//2+7/////
+        ///G5P//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//iMf///7+///+/v//2u3//6LT
+        //+h0v////////////8vnv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//OaL//5LM
+        ///T6v///P3//////////////////6vY//8Xkv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8Xkv//yOX//7Ha//8snP//AIj//wCI//8AiP//AIj//1+0//+b0P//PaT//wCI//8AiP//AIj//wCI
+        //8AiP//A4n//zCe//9Vr///ecD//6rX//////////////P5//9suv//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//zii/////////////47K//8AiP//AIj//wCI//8snP///v7///////+Aw///AIj//wCI
+        //8AiP//AIj//2q5///p9P//////////////////9Pn/////////////6/b///////+Nyf//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//N6H/////////////oNL//wCI//8AiP//AIj//0qq/////////////4zJ
+        //8AiP//AIj//wCI//9lt///////////////////7/f//87o///w+P////////////+BxP//sdr/////
+        //9Wr///AIj//wCI//8AiP//AIj//wCI//8alP/////////////E4///AIj//wCI//8AiP//PKT/////
+        ////////odP//wCI//8AiP//AIj//9ru/////////////5zQ//8Gi///AIj//w+P///g8P///////7bd
+        //8Fiv//str//8vm//8AiP//AIj//wCI//8AiP//AIj//wCI///q9f////////H4//8Cif//AIj//wCI
+        //8dlf/////////////A4f//AIj//wCI//8Ii////v7////////8/f//EpD//wCI//8AiP//AIj//7Ha
+        ////////3+///wCI//8IjP//ls3//wCI//8AiP//AIj//wCI//8Hi///B4v//7Lb/////////////y2d
+        //8AiP//AIj//wGI///y+f///////+Xy//8AiP//AIj//wiM/////////////+bz//8AiP//AIj//wCI
+        //8AiP//fsL///////+w2v//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//0yr///8/f//+Pv/////
+        ////////u9///5XN//+b0P//pdX///H4/////////v7//w+O//8AiP//AIj///D3////////6/X//wCI
+        //8AiP//AIj//wCI//8Yk///oNL//x2V//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//0qq
+        ///B4v//////////////////////////////////////////////////OaL//wCI//8AiP//weL/////
+        ///+/v//E5D//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI///i8f////////3+//9Trv//R6n//0So//93v/////////////9ltv//AIj//wCI
+        //94v/////////////9Ysf//CIv//zii//9PrP//P6X//w2O//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//5LM/////////////0ur//8AiP//AIj//xCP///7/f///////5HL
+        //8AiP//AIj//xuU///5/P///////+Xy///0+f//////////////////9fr//33C//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//V7D//weL//8AiP//OaL/////////////kMv//wCI//8AiP//AIj//8Hi
+        ////////vuD//wCI//8AiP//AIj//7bc/////////////6PT//87o///Ipf//z+l///V6////////2W3
+        //8AiP//AIj//wCI//8AiP//AIj//wCI///W7P//0+r//2m4//86o///4vH////////N5///AIj//wCI
+        //8AiP//bLr////////q9f//AIj//wCI//8xnv///P3///r8////////2u3//xSR//8AiP//AIj//0+s
+        ////////weL//wCI//8AiP//AIj//wCI//8AiP//AIj//0ur///v9/////////////////////////7+
+        //8rnP//AIj//wCI//8Qj///8vn///////8SkP//AIj//4TF//+az///M5///+73////////3u///2C0
+        //86o///qNb////////G5P//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//w+P//9itf//otP//8zn
+        ///l8///7vf//zqj//8AiP//AIj//wCI//9puP///v7//yaZ//8AiP//A4n//wCI//8AiP//J5r//8vm
+        /////////////////////////////267//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//9Ur///Do7//wCI//8AiP//AIj//wCI
+        //8AiP//AYj//0mq//+Myf//odL//47K//9GqP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//gCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//4Ah//mAIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIf/5gCH/3sAiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8Ah/97AP//AQCH/3sAh//mAIj//gCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//4Ah//mAIf/ewD//wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgP8QAIb/XQCH/8YAiP/2AIj//gCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//4AiP/2AIj/yQCJ/2EAgP8QAAAAAACA/woAiP+UAIj/9gCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//kAiP+UAID/EACI
+        /1YAiP/5AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP/5AIb/YQCH/8QAiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIf/yACH//UAiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/9gCI//4AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//gCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wWK//8hl///Raf//2m5//9wvP//WLD//yuc//8Qj///AYj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//E5H//4LE///Y7P///P3///////////////////D3//+q1///Rqj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8Giv//qtb///z9///+/v//3u///6jW//+63///9/v/////
+        ///+/v//8Pf//2W2//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//82of//4/L///////+53v//GZP//wCI
+        //8AiP//Rqj//+by/////////////+r1//8wnv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//9Apf//5/P/////
+        ///l8///lc3//2W3//8/pf//GZP//0+s///w+P////////z9//+CxP//BYr//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8KjP//ls3///7+/////////v7///j7///u9///5fP//83m///o9P////////////++4P//F5L//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//zyj//+p1v//2e3//+r1///4+////v7/////////////////////
+        ///x+P//S6r//w+O//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//BIn//0eo//9GqP//KJr//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//A4n//xmT
+        //8Ukf//AYj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8Cif//H5b//0mq//9uu///j8r//7Da
+        ///W6///+fz/////////////7Pb//6TU//9Cp///BYr//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//O6P///D4///w+P//6fT//4bG//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //83of//w+L//+Xy///Y7P//JZn//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//Coz//0ao
+        //9yvf//iMf//4jG//9Nq///s9v///////////////////7+///u9v//g8X//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//WbH//////////////////+Lx//8Njf//AIj//wCI
+        //8AiP//AIj//wiL//+h0////v7////////+/v//MJ7//wCI//8AiP//AIj//wCI//8AiP//AIj//x+W
+        //+Jx///7vf////////////////////////6/P//5/P///////////////////X6///9/v///////5/R
+        //8Ojv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//YLT//////////////////+Ty
+        //8Wkv//AIj//wCI//8AiP//AIj//xCP///D4///////////////////OKL//wCI//8AiP//AIj//wCI
+        //8AiP//MJ7//8Xj///+/v///////////////////////////////////////////////////////8Hi
+        //+73///+/3///j7//98wf//CIv//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//Vq//////
+        /////////////+j0//8mmf//AIj//wCI//8AiP//AIj//xKQ///J5v//////////////////San//wCI
+        //8AiP//AIj//wCI//8Qj///xOL////////////////////////8/f//1Or//6rX//+63v//9fn/////
+        /////////////9vu//8jmP//ud3////////s9v//NKD//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//NaD//////////////////+73//89pP//AIj//wCI//8AiP//AIj//xCP///A4f//////////
+        ////////YLT//wCI//8AiP//AIj//wCI//9Prf//7fb//////////////////+bz//9Rrf//A4n//wCI
+        //8AiP//KJr//97v/////////////+r1//8unf//DY7//7ne///7/f//mM7//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//DY7///j7//////////////X6//9asv//AIj//wCI//8AiP//AIj//wuN
+        //+u2f//////////////////fcL//wCI//8AiP//AIj//wCI//94v///+/3//////////////////3K9
+        //8AiP//AIj//wCI//8AiP//AIj//5nP//////////////P5//9Qrf//AIj//xqU//+63v//zuj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//8nl//////////////3+//99wv//AYj//wCI
+        //8AiP//AIj//wWK//+Vzv//////////////////otP//wCI//8AiP//AIj//wKJ//+KyP///v7/////
+        ////////+Pv//wuN//8AiP//AIj//wCI//8AiP//AIj//2q5//////////////f7//9itf//AIj//wCI
+        //8lmf//crz//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8Fiv//AYj//4nH////////////////
+        //+j1P//DY7//wCI//8AiP//AIj//wCI//96wf///P3/////////////yub//wCI//8AiP//AIj//wKJ
+        //+JyP//////////////////2u3//wCI//8AiP//AIj//wCI//8AiP//AIj//zWg///7/f///////+/3
+        //9Dp///AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//w+P//+Fxf//gMP//6PU
+        ///////////////////O6P//L57//xWS//8Yk///HZX//ySY//97wf//9fr/////////////8fj//wSJ
+        //8AiP//AIj//wCI//9/w////f7/////////////0+r//wCI//8AiP//AIj//wCI//8AiP//AIj//xOR
+        ///O6P///v7//6PU//8Kjf//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wyN
+        //+w2f///f7///v9///////////////////7/f//6PT//+Ty///l8v//5vP//+j0///w+P///f7/////
+        /////////v7//yea//8AiP//AIj//wCI//9quf//9/v/////////////5fL//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wGI//81oP//VrD//wyN//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8clf//ndH//+Hx///3+///////////////////////////////////////////
+        /////////////////////////////1iw//8AiP//AIj//wCI//9Kqv//6/X//////////////f7//xSQ
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//Aoj//zCe//+n1v///f7//////////////P3//8jl
+        ///H5f//x+T//8Tj///B4v//4/L//////////////////4rH//8AiP//AIj//wCI//8gl///2u3/////
+        /////////////1ew//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//9Vr///7/f/////
+        /////////v7//zGe//8SkP//EZD//xGQ//8Qj///db7//////////////////7/g//8AiP//AIj//wCI
+        //8BiP//p9X//////////////////7bc//8AiP//FpL//1Su//9+w///isj//3nA//9HqP//CYv//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8hl///2e3//////////////////3C7//8AiP//AIj//wCI//8AiP//KZv///z9/////////////+Hw
+        //8LjP//AIj//wCI//8AiP//RKb///v9//////////////T6///E4v//9/v/////////////////////
+        ////////5vP//267//8Ojv//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wGI
+        //8AiP//AIj//wCI//8Cif//pNT//////////////////77g//8Cif//AIj//wCI//8AiP//Aoj//9Tq
+        /////////////+n0//8omv//AIj//wCI//8AiP//A4n//7ne///////////////////+/v//6fT//8Li
+        //+p1///oNL//7DZ///o9P///v7///j8//+Hx///DI3//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//3/C//9nt///BIr//wCI//8AiP//P6X//////////////////+Xz//8elf//AIj//wCI
+        //8AiP//AIj//3nA//////////////H4//9Hqf//AIj//wCI//8AiP//AIj//3rA////////////////
+        ///k8v//OqP//xCP//8KjP//CIv//wyN//9Cpv//4/H////////0+v//P6X//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//8Li///2+v//lc3//zCe//8clf//FJH//9js//////////////D4
+        //9FqP//AIj//wCI//8AiP//AIj//yea///z+f////////j7//9ktv//AIj//wCI//8AiP//L53///f7
+        ///9/v///v7/////////////n9L//w2O//8AiP//AIj//wCI//8AiP//i8j/////////////kMv//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//3C8///5/P////////L5///L5v//tdz//9zu
+        //////////////r8//94v///BIn//wCI//8AiP//AIj//w6O//+63/////////3+//9/w///AYj//wCI
+        //8Dif//p9X///r8//+s2P//yeX//////////////f7//5rP//8hl///AIj//wCI//8BiP//i8j/////
+        ////////rdj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wuN//+CxP//9Pr/////
+        //////////////////////////////7+//+63///FpL//wCI//8AiP//AIj//wGI//9tuv//9vv/////
+        //+Xzv//CYz//wCI//8JjP//zuf//6HT//8Pj///GpP//8rm//////////////z9///c7v//j8r//2K2
+        //+Ry///7Pb/////////////mc7//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//KZv//4jG///K5v//3/D//+n1///x+P//9vr///n8///F4///G5T//wCI//8AiP//AIj//wCI
+        //8Yk///v+H///7+//+k1P//DY7//wCI//8AiP//B4v//wCI//8AiP//AIj//xOQ//+s2P//9Pn/////
+        ///////////////////////////////////z+f//S6r//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8Ljf//K5z//0eo//9bsv//aLj//2+7//9Iqf//Bov//wCI
+        //8AiP//AIj//wCI//8AiP//LJz//7jd//+e0f//DI3//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8Tkf//Zbb//7bd///u9////v7//////////////f7//9rt//93v///DY7//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//w6O//8TkP//AYj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//w2O//8flv//Qqf//1mx//9Trv//MJ7//xaS//8Fiv//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //4AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//gCH//UAiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj/9gCH/8EAiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj/xQCH/1EAiP/2AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP/2AIX/XACA/woAiP+UAIj/9gCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//kAiP+UAID/EAAA
+        AAAAgP8KAIb/UgCH/8AAh//1AIj//gCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI
+        //8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//8AiP//AIj//wCI//4Ah//1AIj/wwCH
+        /1cAgP8KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 17</value>
+  </metadata>
+  <metadata name="MenuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="MainTheme.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="onMinimize.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="onClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="tControl.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -132,13 +415,24 @@
   <metadata name="webDashboard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="tSettings.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkCenterStart.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chWrnClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chOnTop.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="tAbout.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="PictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAASpVJREFUeF7t
@@ -470,15 +764,6 @@
     <value>True</value>
   </metadata>
   <metadata name="onOK.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="MainTheme.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="onClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="MainTheme.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

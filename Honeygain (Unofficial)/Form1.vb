@@ -10,6 +10,9 @@ Imports System.ComponentModel
 Public Class frmMain
 
     Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        NotifyIcon1.Visible = False
+
         DelayURL.Interval = 100
         DelayURL.Enabled = True
         DelayReload.Interval = 600000
@@ -21,6 +24,24 @@ Public Class frmMain
         chOnTop.Checked = My.Settings.TopMost
         chWrnClose.Checked = My.Settings.WarnClose
         chkCenterStart.Checked = My.Settings.AppCenter
+
+        For Each arg As String In My.Application.CommandLineArgs
+            Select Case Trim(LCase(arg))
+                Case "/nogui" '.ToLower
+                    Application.Exit()
+                Case "/help"
+                    Process.Start("http://www.chware.net/")
+            End Select
+        Next
+
+        If Me.WindowState = FormWindowState.Minimized Then
+            Me.Hide()
+            'NotifyIcon1.BalloonTipText = ""
+            'NotifyIcon1.BalloonTipTitle = ""
+            NotifyIcon1.Visible = True
+            NotifyIcon1.ShowBalloonTip(0)
+            NotifyIcon1.Visible = True
+        End If
 
     End Sub
 
@@ -150,4 +171,29 @@ Public Class frmMain
         End Try
     End Sub
 
+    Private Sub mnuExit_Click(sender As Object, e As EventArgs) Handles mnuExit.Click
+        Try
+            Close()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub NotifyIcon1_DoubleClick(sender As Object, e As EventArgs) Handles NotifyIcon1.DoubleClick
+        Try
+            Me.Show()
+            NotifyIcon1.Visible = False
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
+
+    Private Sub onMinimize_Click(sender As Object, e As EventArgs) Handles onMinimize.Click
+        Try
+            Me.Hide()
+            NotifyIcon1.Visible = True
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
 End Class

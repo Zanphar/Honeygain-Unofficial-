@@ -43,8 +43,28 @@ Partial Class frmMain
         Dim Bloom17 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
         Dim Bloom18 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
         Dim Bloom19 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom20 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom21 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom22 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom23 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom24 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom25 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom26 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
+        Dim Bloom27 As Honeygain__Unofficial_.Bloom = New Honeygain__Unofficial_.Bloom()
         Me.DelayURL = New System.Windows.Forms.Timer(Me.components)
         Me.DelayReload = New System.Windows.Forms.Timer(Me.components)
+        Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MainTheme = New Honeygain__Unofficial_.FusionTheme()
+        Me.onMinimize = New Honeygain__Unofficial_.FusionButton()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.onClose = New Honeygain__Unofficial_.FusionButton()
         Me.tControl = New Honeygain__Unofficial_.AresioTabControl()
         Me.tDashboard = New System.Windows.Forms.TabPage()
         Me.webDashboard = New Microsoft.Web.WebView2.WinForms.WebView2()
@@ -57,16 +77,14 @@ Partial Class frmMain
         Me.AppDescript = New System.Windows.Forms.Label()
         Me.AppNameVer = New System.Windows.Forms.Label()
         Me.onOK = New Honeygain__Unofficial_.AresioButton()
-        Me.MainTheme = New Honeygain__Unofficial_.FusionTheme()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.onClose = New Honeygain__Unofficial_.FusionButton()
+        Me.MenuStrip1.SuspendLayout()
+        Me.MainTheme.SuspendLayout()
         Me.tControl.SuspendLayout()
         Me.tDashboard.SuspendLayout()
         CType(Me.webDashboard, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tSettings.SuspendLayout()
         Me.tAbout.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MainTheme.SuspendLayout()
         Me.SuspendLayout()
         '
         'DelayURL
@@ -74,6 +92,178 @@ Partial Class frmMain
         '
         'DelayReload
         '
+        '
+        'NotifyIcon1
+        '
+        Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
+        Me.NotifyIcon1.Text = "Honeygain (Unofficial)"
+        Me.NotifyIcon1.Visible = True
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.HelpToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1024, 24)
+        Me.MenuStrip1.TabIndex = 2
+        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.MenuStrip1.Visible = False
+        '
+        'FileToolStripMenuItem
+        '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuExit})
+        Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Text = "&File"
+        '
+        'mnuExit
+        '
+        Me.mnuExit.Name = "mnuExit"
+        Me.mnuExit.Size = New System.Drawing.Size(93, 22)
+        Me.mnuExit.Text = "&Exit"
+        '
+        'EditToolStripMenuItem
+        '
+        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SettingsToolStripMenuItem})
+        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
+        Me.EditToolStripMenuItem.Text = "&Edit"
+        '
+        'SettingsToolStripMenuItem
+        '
+        Me.SettingsToolStripMenuItem.Name = "SettingsToolStripMenuItem"
+        Me.SettingsToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.SettingsToolStripMenuItem.Text = "&Settings"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "&Help"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Text = "&About"
+        '
+        'MainTheme
+        '
+        Me.MainTheme.BackColor = System.Drawing.Color.White
+        Me.MainTheme.BorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Bloom1.Name = "Sides"
+        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(50, Byte), Integer))
+        Bloom2.Name = "Gradient1"
+        Bloom2.Value = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(55, Byte), Integer))
+        Bloom3.Name = "Gradient2"
+        Bloom3.Value = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(50, Byte), Integer))
+        Bloom4.Name = "Text"
+        Bloom4.Value = System.Drawing.Color.White
+        Bloom5.Name = "Back"
+        Bloom5.Value = System.Drawing.Color.White
+        Bloom6.Name = "Border1"
+        Bloom6.Value = System.Drawing.Color.Black
+        Bloom7.Name = "Border2"
+        Bloom7.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
+        Bloom8.Name = "Border3"
+        Bloom8.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
+        Bloom9.Name = "Border4"
+        Bloom9.Value = System.Drawing.Color.Black
+        Bloom10.Name = "Blend1"
+        Bloom10.Value = System.Drawing.Color.Transparent
+        Bloom11.Name = "Blend2"
+        Bloom11.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
+        Me.MainTheme.Colors = New Honeygain__Unofficial_.Bloom() {Bloom1, Bloom2, Bloom3, Bloom4, Bloom5, Bloom6, Bloom7, Bloom8, Bloom9, Bloom10, Bloom11}
+        Me.MainTheme.Controls.Add(Me.onMinimize)
+        Me.MainTheme.Controls.Add(Me.Label1)
+        Me.MainTheme.Controls.Add(Me.onClose)
+        Me.MainTheme.Controls.Add(Me.tControl)
+        Me.MainTheme.Customization = "Mi8v/zc0NP8yLy////////////8AAAD/Pzw8/z88PP8AAAD/////AD88PP8="
+        Me.MainTheme.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MainTheme.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.MainTheme.Image = CType(resources.GetObject("MainTheme.Image"), System.Drawing.Image)
+        Me.MainTheme.Location = New System.Drawing.Point(0, 0)
+        Me.MainTheme.Movable = True
+        Me.MainTheme.Name = "MainTheme"
+        Me.MainTheme.NoRounding = False
+        Me.MainTheme.Sizable = True
+        Me.MainTheme.Size = New System.Drawing.Size(1024, 768)
+        Me.MainTheme.SmartBounds = True
+        Me.MainTheme.TabIndex = 1
+        Me.MainTheme.Text = "Honeygain (Unofficial)"
+        Me.MainTheme.TransparencyKey = System.Drawing.Color.Fuchsia
+        '
+        'onMinimize
+        '
+        Bloom12.Name = "DownGradient1"
+        Bloom12.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
+        Bloom13.Name = "DownGradient2"
+        Bloom13.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
+        Bloom14.Name = "NoneGradient1"
+        Bloom14.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
+        Bloom15.Name = "NoneGradient2"
+        Bloom15.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
+        Bloom16.Name = "TextShade"
+        Bloom16.Value = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Bloom17.Name = "Text"
+        Bloom17.Value = System.Drawing.Color.White
+        Bloom18.Name = "Border1"
+        Bloom18.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(19, Byte), Integer))
+        Bloom19.Name = "Border2"
+        Bloom19.Value = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.onMinimize.Colors = New Honeygain__Unofficial_.Bloom() {Bloom12, Bloom13, Bloom14, Bloom15, Bloom16, Bloom17, Bloom18, Bloom19}
+        Me.onMinimize.Customization = "AX///wyv//8Mr///AX///wAAAB7/////E8X//wCF/v8="
+        Me.onMinimize.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.onMinimize.Image = Nothing
+        Me.onMinimize.Location = New System.Drawing.Point(858, 6)
+        Me.onMinimize.Name = "onMinimize"
+        Me.onMinimize.NoRounding = False
+        Me.onMinimize.Size = New System.Drawing.Size(75, 23)
+        Me.onMinimize.TabIndex = 6
+        Me.onMinimize.Text = "-"
+        Me.onMinimize.Transparent = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(345, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(334, 13)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "Copyright © 2021 Charles McDonald. All rights reserved."
+        '
+        'onClose
+        '
+        Bloom20.Name = "DownGradient1"
+        Bloom20.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
+        Bloom21.Name = "DownGradient2"
+        Bloom21.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
+        Bloom22.Name = "NoneGradient1"
+        Bloom22.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
+        Bloom23.Name = "NoneGradient2"
+        Bloom23.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
+        Bloom24.Name = "TextShade"
+        Bloom24.Value = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Bloom25.Name = "Text"
+        Bloom25.Value = System.Drawing.Color.White
+        Bloom26.Name = "Border1"
+        Bloom26.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(19, Byte), Integer))
+        Bloom27.Name = "Border2"
+        Bloom27.Value = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.onClose.Colors = New Honeygain__Unofficial_.Bloom() {Bloom20, Bloom21, Bloom22, Bloom23, Bloom24, Bloom25, Bloom26, Bloom27}
+        Me.onClose.Customization = "AX///wyv//8Mr///AX///wAAAB7/////E8X//wCF/v8="
+        Me.onClose.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.onClose.Image = Nothing
+        Me.onClose.Location = New System.Drawing.Point(937, 6)
+        Me.onClose.Name = "onClose"
+        Me.onClose.NoRounding = False
+        Me.onClose.Size = New System.Drawing.Size(75, 23)
+        Me.onClose.TabIndex = 1
+        Me.onClose.Text = "X"
+        Me.onClose.Transparent = False
         '
         'tControl
         '
@@ -213,104 +403,24 @@ Partial Class frmMain
         Me.onOK.TabIndex = 0
         Me.onOK.Text = "Close"
         '
-        'MainTheme
-        '
-        Me.MainTheme.BackColor = System.Drawing.Color.White
-        Me.MainTheme.BorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Bloom1.Name = "Sides"
-        Bloom1.Value = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(50, Byte), Integer))
-        Bloom2.Name = "Gradient1"
-        Bloom2.Value = System.Drawing.Color.FromArgb(CType(CType(52, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(55, Byte), Integer))
-        Bloom3.Name = "Gradient2"
-        Bloom3.Value = System.Drawing.Color.FromArgb(CType(CType(47, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(50, Byte), Integer))
-        Bloom4.Name = "Text"
-        Bloom4.Value = System.Drawing.Color.White
-        Bloom5.Name = "Back"
-        Bloom5.Value = System.Drawing.Color.White
-        Bloom6.Name = "Border1"
-        Bloom6.Value = System.Drawing.Color.Black
-        Bloom7.Name = "Border2"
-        Bloom7.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
-        Bloom8.Name = "Border3"
-        Bloom8.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
-        Bloom9.Name = "Border4"
-        Bloom9.Value = System.Drawing.Color.Black
-        Bloom10.Name = "Blend1"
-        Bloom10.Value = System.Drawing.Color.Transparent
-        Bloom11.Name = "Blend2"
-        Bloom11.Value = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(60, Byte), Integer), CType(CType(63, Byte), Integer))
-        Me.MainTheme.Colors = New Honeygain__Unofficial_.Bloom() {Bloom1, Bloom2, Bloom3, Bloom4, Bloom5, Bloom6, Bloom7, Bloom8, Bloom9, Bloom10, Bloom11}
-        Me.MainTheme.Controls.Add(Me.Label1)
-        Me.MainTheme.Controls.Add(Me.onClose)
-        Me.MainTheme.Controls.Add(Me.tControl)
-        Me.MainTheme.Customization = "Mi8v/zc0NP8yLy////////////8AAAD/Pzw8/z88PP8AAAD/////AD88PP8="
-        Me.MainTheme.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.MainTheme.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.MainTheme.Image = CType(resources.GetObject("MainTheme.Image"), System.Drawing.Image)
-        Me.MainTheme.Location = New System.Drawing.Point(0, 0)
-        Me.MainTheme.Movable = True
-        Me.MainTheme.Name = "MainTheme"
-        Me.MainTheme.NoRounding = False
-        Me.MainTheme.Sizable = True
-        Me.MainTheme.Size = New System.Drawing.Size(1024, 768)
-        Me.MainTheme.SmartBounds = True
-        Me.MainTheme.TabIndex = 1
-        Me.MainTheme.Text = "Honeygain (Unofficial)"
-        Me.MainTheme.TransparencyKey = System.Drawing.Color.Fuchsia
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(597, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(334, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Copyright © 2021 Charles McDonald. All rights reserved."
-        '
-        'onClose
-        '
-        Bloom12.Name = "DownGradient1"
-        Bloom12.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
-        Bloom13.Name = "DownGradient2"
-        Bloom13.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
-        Bloom14.Name = "NoneGradient1"
-        Bloom14.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(175, Byte), Integer), CType(CType(12, Byte), Integer))
-        Bloom15.Name = "NoneGradient2"
-        Bloom15.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(1, Byte), Integer))
-        Bloom16.Name = "TextShade"
-        Bloom16.Value = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Bloom17.Name = "Text"
-        Bloom17.Value = System.Drawing.Color.White
-        Bloom18.Name = "Border1"
-        Bloom18.Value = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(19, Byte), Integer))
-        Bloom19.Name = "Border2"
-        Bloom19.Value = System.Drawing.Color.FromArgb(CType(CType(254, Byte), Integer), CType(CType(133, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.onClose.Colors = New Honeygain__Unofficial_.Bloom() {Bloom12, Bloom13, Bloom14, Bloom15, Bloom16, Bloom17, Bloom18, Bloom19}
-        Me.onClose.Customization = "AX///wyv//8Mr///AX///wAAAB7/////E8X//wCF/v8="
-        Me.onClose.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.onClose.Image = Nothing
-        Me.onClose.Location = New System.Drawing.Point(937, 6)
-        Me.onClose.Name = "onClose"
-        Me.onClose.NoRounding = False
-        Me.onClose.Size = New System.Drawing.Size(75, 23)
-        Me.onClose.TabIndex = 1
-        Me.onClose.Text = "X"
-        Me.onClose.Transparent = False
-        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.MainTheme)
+        Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "frmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "="
+        Me.Text = "Honeygain (Unofficial)"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.MainTheme.ResumeLayout(False)
+        Me.MainTheme.PerformLayout()
         Me.tControl.ResumeLayout(False)
         Me.tDashboard.ResumeLayout(False)
         CType(Me.webDashboard, System.ComponentModel.ISupportInitialize).EndInit()
@@ -318,9 +428,8 @@ Partial Class frmMain
         Me.tSettings.PerformLayout()
         Me.tAbout.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MainTheme.ResumeLayout(False)
-        Me.MainTheme.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -355,4 +464,13 @@ Partial Class frmMain
     Friend WithEvents chWrnClose As CheckBox
     Friend WithEvents chOnTop As CheckBox
     Friend WithEvents chkCenterStart As CheckBox
+    Friend WithEvents NotifyIcon1 As NotifyIcon
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuExit As ToolStripMenuItem
+    Friend WithEvents EditToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SettingsToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents onMinimize As FusionButton
 End Class
