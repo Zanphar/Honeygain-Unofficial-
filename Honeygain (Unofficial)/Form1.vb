@@ -20,10 +20,13 @@ Public Class frmMain
         AppNameVer.Text = String.Format("Honeygain (Unofficial) {0}.{1}.{2}.{3}", My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build, My.Application.Info.Version.Revision)
         AppDescript.Text = String.Format("Honeygain is the first-ever app that allows users to make money online by sharing their internet connection. Users now can reach their networks' full potential by getting cash back to their wallets!")
 
+        Try
+            chOnTop.Checked = My.Settings.TopMost
+            chWrnClose.Checked = My.Settings.WarnClose
+            chkCenterStart.Checked = My.Settings.AppCenter
+        Catch ex As Exception
 
-        chOnTop.Checked = My.Settings.TopMost
-        chWrnClose.Checked = My.Settings.WarnClose
-        chkCenterStart.Checked = My.Settings.AppCenter
+        End Try
 
         For Each arg As String In My.Application.CommandLineArgs
             Select Case Trim(LCase(arg))
